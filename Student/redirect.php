@@ -1,0 +1,1 @@
+<?php ob_start(); session_start(); header("location:".$_SESSION['URLSET']."#Sprofile"); ob_end_flush(); ?>
